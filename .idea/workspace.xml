@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4b5eed7-ea29-44f2-bc32-6cba0becef03" name="Default Changelist" comment="" />
+    <list default="true" id="b4b5eed7-ea29-44f2-bc32-6cba0becef03" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Models/Dashboard/Admin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Shop/Admin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Shop/AdminLoginWeb.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_09_05_151258_create_admins_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/auth/login.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/anoymos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/anoymos.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/includes/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/includes/sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +43,9 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true">
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1h3l2GSl6pBKHKSO5zYWKcEvqTS" />
   <component name="ProjectViewState">
@@ -18,17 +55,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin/includes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin/auth" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\laragon\www\anoymos\resources\views\admin\includes" />
-      <recent name="C:\laragon\www\anoymos\asset" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\laragon\www\anoymos" />
       <recent name="C:\laragon\www\anoymos\desing" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\anoymos\resources\views\admin\auth" />
+      <recent name="C:\laragon\www\anoymos\app" />
+      <recent name="C:\laragon\www\anoymos\resources\views\admin\includes" />
+      <recent name="C:\laragon\www\anoymos\asset" />
     </key>
   </component>
   <component name="RunManager">
@@ -46,21 +85,33 @@
       <option name="presentableId" value="Default" />
       <updated>1599247448349</updated>
       <workItem from="1599247449645" duration="972000" />
-      <workItem from="1599287705078" duration="5509000" />
+      <workItem from="1599287705078" duration="8514000" />
+      <workItem from="1599318369343" duration="6760000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="1840" y="420" key="NewPhpFileDialog" timestamp="1599296337272">
+    <state x="1840" y="420" key="NewPhpFileDialog" timestamp="1599298856767">
       <screen x="1366" y="0" width="1280" height="994" />
     </state>
-    <state x="1840" y="420" key="NewPhpFileDialog/0.0.1366.738/1366.0.1280.994@1366.0.1280.994" timestamp="1599296337272" />
-    <state x="1669" y="213" width="672" height="678" key="search.everywhere.popup" timestamp="1599295646480">
+    <state x="1840" y="420" key="NewPhpFileDialog/0.0.1366.738/1366.0.1280.994@1366.0.1280.994" timestamp="1599298856767" />
+    <state x="1669" y="213" width="672" height="678" key="search.everywhere.popup" timestamp="1599337901445">
       <screen x="1366" y="0" width="1280" height="994" />
     </state>
-    <state x="1669" y="213" width="672" height="678" key="search.everywhere.popup/0.0.1366.738/1366.0.1280.994@1366.0.1280.994" timestamp="1599295646480" />
+    <state x="1669" y="213" width="672" height="678" key="search.everywhere.popup/0.0.1366.738/1366.0.1280.994@1366.0.1280.994" timestamp="1599337901445" />
   </component>
 </project>
