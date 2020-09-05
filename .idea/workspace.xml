@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b4b5eed7-ea29-44f2-bc32-6cba0becef03" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true">
+    <execution />
+  </component>
+  <component name="ProjectId" id="1h3l2GSl6pBKHKSO5zYWKcEvqTS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin/includes" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\anoymos\resources\views\admin\includes" />
+      <recent name="C:\laragon\www\anoymos\asset" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\anoymos" />
+      <recent name="C:\laragon\www\anoymos\desing" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b4b5eed7-ea29-44f2-bc32-6cba0becef03" name="Default Changelist" comment="" />
+      <created>1599247448349</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599247448349</updated>
+      <workItem from="1599247449645" duration="972000" />
+      <workItem from="1599287705078" duration="5509000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1840" y="420" key="NewPhpFileDialog" timestamp="1599296337272">
+      <screen x="1366" y="0" width="1280" height="994" />
+    </state>
+    <state x="1840" y="420" key="NewPhpFileDialog/0.0.1366.738/1366.0.1280.994@1366.0.1280.994" timestamp="1599296337272" />
+    <state x="1669" y="213" width="672" height="678" key="search.everywhere.popup" timestamp="1599295646480">
+      <screen x="1366" y="0" width="1280" height="994" />
+    </state>
+    <state x="1669" y="213" width="672" height="678" key="search.everywhere.popup/0.0.1366.738/1366.0.1280.994@1366.0.1280.994" timestamp="1599295646480" />
+  </component>
+</project>
