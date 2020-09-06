@@ -20,21 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4b5eed7-ea29-44f2-bc32-6cba0becef03" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Models/Dashboard/Admin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Shop/Admin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Shop/AdminLoginWeb.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_09_05_151258_create_admins_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/auth/login.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/anoymos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/anoymos.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/includes/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/includes/sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/dashboard/AdminAuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/dashboard/AdminAuthController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/auth/forget_password.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/auth/forget_password.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/emails/admin_reset_password.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/emails/admin_reset_password.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,15 +52,15 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\laragon\www\anoymos" />
-      <recent name="C:\laragon\www\anoymos\desing" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\laragon\www\anoymos\resources\views\admin\auth" />
       <recent name="C:\laragon\www\anoymos\app" />
       <recent name="C:\laragon\www\anoymos\resources\views\admin\includes" />
       <recent name="C:\laragon\www\anoymos\asset" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\anoymos" />
+      <recent name="C:\laragon\www\anoymos\desing" />
     </key>
   </component>
   <component name="RunManager">
@@ -86,7 +79,8 @@
       <updated>1599247448349</updated>
       <workItem from="1599247449645" duration="972000" />
       <workItem from="1599287705078" duration="8514000" />
-      <workItem from="1599318369343" duration="6760000" />
+      <workItem from="1599318369343" duration="7963000" />
+      <workItem from="1599376164645" duration="9255000" />
     </task>
     <servers />
   </component>
@@ -103,15 +97,20 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1840" y="420" key="NewPhpFileDialog" timestamp="1599298856767">
       <screen x="1366" y="0" width="1280" height="994" />
     </state>
     <state x="1840" y="420" key="NewPhpFileDialog/0.0.1366.738/1366.0.1280.994@1366.0.1280.994" timestamp="1599298856767" />
-    <state x="1669" y="213" width="672" height="678" key="search.everywhere.popup" timestamp="1599337901445">
+    <state x="1662" y="229" key="run.anything.popup" timestamp="1599383363905">
       <screen x="1366" y="0" width="1280" height="994" />
     </state>
-    <state x="1669" y="213" width="672" height="678" key="search.everywhere.popup/0.0.1366.738/1366.0.1280.994@1366.0.1280.994" timestamp="1599337901445" />
+    <state x="1662" y="229" key="run.anything.popup/0.0.1366.738/1366.0.1280.994@1366.0.1280.994" timestamp="1599383363905" />
+    <state x="1669" y="213" width="672" height="678" key="search.everywhere.popup" timestamp="1599387356628">
+      <screen x="1366" y="0" width="1280" height="994" />
+    </state>
+    <state x="1669" y="213" width="672" height="678" key="search.everywhere.popup/0.0.1366.738/1366.0.1280.994@1366.0.1280.994" timestamp="1599387356628" />
   </component>
 </project>

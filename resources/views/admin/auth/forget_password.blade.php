@@ -29,6 +29,9 @@
         <div class="card">
         <div class="card-body login-card-body">
             <p class="login-box-msg">Enter your email to reset your password</p>
+            @if(session()->has('success'))
+                <div class="alert alert-success">{{ session()->get('success') }}</div>
+            @endif
             <form action="" method="post">
                 <div class="input-group mb-3">
                     <input type="email" class="form-control" placeholder="Email" name="email">

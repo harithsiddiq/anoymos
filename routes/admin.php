@@ -18,5 +18,7 @@ Route::group(['prefix' => 'admin', 'namespace' => 'dashboard'], function() {
 
     Route::get('forget-password', 'AdminAuthController@forgetPassword')->name('admin.forget_form');
     Route::post('forget-password', 'AdminAuthController@forgetPasswordPost')->name('admin.forget_post');
+    Route::get('reset/password/{token}', 'AdminAuthController@reset')->name('admin.reset');
+    Route::post('reset/password/{token}', 'AdminAuthController@reset_post')->name('admin.reset_post');
 
 });
