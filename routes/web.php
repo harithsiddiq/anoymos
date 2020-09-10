@@ -14,6 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    $url = \route('admins.index');
+    return $url;
     return redirect()->route('admin.dashboard');
 });
 

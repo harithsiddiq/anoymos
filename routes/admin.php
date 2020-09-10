@@ -8,6 +8,9 @@ Route::group(['prefix' => 'admin', 'namespace' => 'dashboard'], function() {
     Route::group(['middleware' => 'auth:admin'], function() {
         Route::get('/', 'DashboardController@index')->name('admin.dashboard');
         Route::get('/logout','AdminAuthController@logout')->name('admin.logout');
+
+        Route::resource('/admins','AdminController');
+
     });
 
     // admin login
