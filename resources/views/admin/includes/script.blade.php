@@ -30,6 +30,9 @@
 <script src="{{ asset('asset/plugins/jqvmap/maps/jquery.vmap.usa.js') }}"></script>
 <!-- jQuery Knob Chart -->
 <script src="{{ asset('asset/plugins/jquery-knob/jquery.knob.min.js') }}"></script>
+
+<script src="{{ asset('asset/plugins/sweetalert2/sweetalert2.min.js') }}"></script>
+<script src="{{ asset('asset/plugins/toastr/toastr.min.js') }}"></script>
 <!-- daterangepicker -->
 <!-- Tempusdominus Bootstrap 4 -->
 <script src="{{ asset('asset/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js') }}"></script>
@@ -43,5 +46,14 @@
 <script src="{{ asset('asset/dist/js/demo.js') }}"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 <script src="{{ asset('asset/dist/js/pages/dashboard.js') }}"></script>
+<script src="{{ asset('asset/plugins/toastr/toastr.min.js') }}"></script>
+
+<script src="{{ asset('asset/me/alerts.js') }}"></script>
+<script src="{{ asset('asset/jstree/jstree.js') }}"></script>
+<script src="{{ asset('asset/jstree/jstree.wholerow.js') }}"></script>
+<script src="{{ asset('asset/jstree/jstree.checkbox.js') }}"></script>
+<script src="{{ asset('asset/select2/select2.js') }}"></script>
+
+
 
 @stack('js')

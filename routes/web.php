@@ -13,11 +13,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    $url = \route('admins.index');
-    return $url;
-    return redirect()->route('admin.dashboard');
+Route::group(['middleware' => 'maintenance'], function() {
+    Route::get('/', function () {
+        return view('front.home');
+    });
 });
+Route::get('test', function () {
+   $dep = \App\Models\Dashboard\Size::get();
+   return $dep;
+});
+
 
 Auth::routes();
 

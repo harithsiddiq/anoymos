@@ -9,40 +9,26 @@ use Yajra\DataTables\Services\DataTable;
 
 class AdminDataTable extends DataTable
 {
-    /**
-     * Build DataTable class.
-     *
-     * @param mixed $query Results from query() method.
-     * @return \Yajra\DataTables\DataTableAbstract
-     */
+
     public function dataTable($query)
     {
         return datatables()
             ->eloquent($query)
             ->addColumn('edit', 'admin.admins.btn.edit')
             ->addColumn('delete', 'admin.admins.btn.delete')
+            ->addColumn('checkbox', 'admin.admins.btn.checkbox')
             ->rawColumns([
                 'edit',
-                'delete'
+                'delete',
+                'checkbox'
             ]);
     }
 
-    /**
-     * Get query source of dataTable.
-     *
-     * @param \App\Admin $model
-     * @return \Illuminate\Database\Eloquent\Builder
-     */
     public function query(Admin $model)
     {
-        return Admin::query();
+        return $model::query();
     }
 
-    /**
-     * Optional method if you want to use html builder.
-     *
-     * @return \Yajra\DataTables\Html\Builder
-     */
     public function html()
     {
         return $this->builder()
@@ -53,23 +39,19 @@ class AdminDataTable extends DataTable
                     ->lengthMenu([[10,25,50,100, -1], [10, 25, 50, 'All record']])
                     ->orderBy(1)
                     ->buttons(
-//                        Button::make('create'),
-//                        Button::make('export'),
-                        Button::make('print')->className('btn btn-primary btn-sm')->text('<i class="fa fa-print"></i>')
-//                        Button::make('reset'),
-//                        Button::make('reload')
-//
+                        Button::make('create')->className('btn btn-primary btn-sm mb-2')->text('create <i class="fa fa-plus-circle"></i>'),
+                        Button::make('export')->className('btn btn-info btn-sm mb-2')->text('export <i class="fa fa-file-export"></i>'),
+                        Button::make('print')->className('btn btn-primary btn-sm mb-2')->text('print <i class="fa fa-print"></i>'),
+                        Button::make('reset')->className('btn btn-danger btn-sm mb-2')->text('reset <i class="fa fa-recycle"></i>'),
+                        Button::make('reload')->className('btn btn-warning btn-sm mb-2')->text('reload <i class="fa fa-download"></i>'),
+                        ['text' => '<i class="fa fa-trash"></i> delete all', 'className' => 'delBtn btn btn-danger btn-sm mb-2']
         );
     }
 
-    /**
-     * Get columns.
-     *
-     * @return array
-     */
     protected function getColumns()
     {
         return [
+            Column::checkbox('<input type="checkbox" class="check_all" onclick="checkAll()"/>')->data('checkbox')->name('checkbox')->printable(false)->exportable(false),
             Column::make('id'),
             Column::make('name'),
             Column::make('email'),
@@ -80,11 +62,6 @@ class AdminDataTable extends DataTable
         ];
     }
 
-    /**
-     * Get filename for export.
-     *
-     * @return string
-     */
     protected function filename()
     {
         return 'Admin_' . date('YmdHis');

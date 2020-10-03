@@ -19,9 +19,11 @@
 
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
+        @include('alerts.success')
+        @include('alerts.error')
       @yield('content')
     </div>
-    '=
+
     @include('admin.includes.footer')
 
     <!-- Control Sidebar -->
